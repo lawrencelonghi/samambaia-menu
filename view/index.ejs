@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 viewport-fit=cover"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Samambaia</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="img-logo"
+        src="./img/logo samambaia cinza.png"
+        alt="samambaia bar e lanches"
+      />
+    </header>
+
+    <main class="box-section">
+        <header class="box-content-top">
+          <nav class="box-container nav-list">
+            <button class="nav-btn"><a href="#lanches">Lanches</a></button>
+            <button class="nav-btn"><a href="#porcoes">Porções</a></button>
+            <button class="nav-btn"><a href="#drinks">Drinks</a></button>
+            <button class="nav-btn"><a href="#acepipes">Acepipes</a></button>
+            <button class="nav-btn"><a href="#cervejas">Cervejas</a></button>
+            <button class="nav-btn"><a href="#almoco">Almoço</a></button>
+          </nav>
+        </header>
+        <main class="box-content-bottom">
+          <% Object.entries(menuItems).forEach(([index, categoria]) => { %>
+          <section id="<%= index %>">
+            <div>
+              <p><%= categoria.name %></p>
+            </div>
+            <% categoria.items.forEach(item => { %>
+            <div class="menu-items box-container">
+              <div class="item box-container">
+                <img
+                  class="item-img"
+                  src="./img/lanches/<%= item.img %>"
+                  alt=""
+                />
+                <div class="item-text">
+                  <h2><%= item.name %></h2>
+                  <p><%= item.description %></p>
+                  <span>R$ <%= item.price %></span>
+                </div>
+              </div>
+            </div>
+            <% }); %>
+          </section>
+          <% }); %>
+        </main>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

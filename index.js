@@ -5,18 +5,17 @@ const path = require('path');
 const fs = require('fs');
 const PORT = 3000;
 
-
-
 app.use(express.json());
- app.use(cors());
- app.use(express.static(path.join(__dirname, 'public')));
+app.use(cors());
+app.use(express.static(path.join(__dirname, 'public')));
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'view'));
 
-const menuItems = require('./menuData')
+const menuItems = require('./data/menu_items.json')
 
-app.get('/menu', (req, res) => {
-  res.status(200).json(menuItems);
+app.get('/', (req, res) => {
+  res.status(200).render('index', {menuItems: menuItems})
 })
-
 
 
 // Start server
