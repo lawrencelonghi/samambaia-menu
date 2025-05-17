@@ -1,4 +1,4 @@
-module.exports = {
+menuItems = {
   "menu": {
     "Porções": [
       {
@@ -378,3 +378,5 @@ module.exports = {
     ]
   }
 }
+
+module.exports = menuItems
