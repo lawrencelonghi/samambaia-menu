@@ -128,39 +128,6 @@
       }
     ]
   },
-  "doces": {
-    "name": "Doces",
-    "items": [
-      {
-        "id": 18,
-        "name": "Pudim de leite",
-        "price": 24,
-        "description": "",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 19,
-        "name": "Palha italiana",
-        "price": 22,
-        "description": "",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 20,
-        "name": "Torta de chocolate",
-        "price": 28,
-        "description": "com compota do dia",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 21,
-        "name": "Rosquinha de pinga",
-        "price": 2,
-        "description": "",
-        "img": "lanche-cupim.jpeg"
-      }
-    ]
-  },
   "lanches": {
     "name": "Lanches",
     "items": [
@@ -194,6 +161,157 @@
       }
     ]
   },
+  "doces": {
+    "name": "Doces",
+    "items": [
+      {
+        "id": 18,
+        "name": "Pudim de leite",
+        "price": 24,
+        "description": "",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 19,
+        "name": "Palha italiana",
+        "price": 22,
+        "description": "",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 20,
+        "name": "Torta de chocolate",
+        "price": 28,
+        "description": "com compota do dia",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 21,
+        "name": "Rosquinha de pinga",
+        "price": 2,
+        "description": "",
+        "img": "lanche-cupim.jpeg"
+      }
+    ]
+  },
+  "drinks": {
+    "name": "Drinks",
+    "items": [
+      {
+        "id": 45,
+        "name": "Caipirinha",
+        "price": 38,
+        "description": "cachaça, limão, açúcar",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 46,
+        "name": "Rabo de galo",
+        "price": 38,
+        "description": "cachaça, vermute tinto",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 47,
+        "name": "Maria mole",
+        "price": 38,
+        "description": "conhaque, vermute branco, bitter",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 48,
+        "name": "Amado jorge",
+        "price": 40,
+        "description": "cachaça de canela, maracujá, limão, açúcar mascavo",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 49,
+        "name": "Fitzgerald",
+        "price": 38,
+        "description": "gin, limão, açúcar, bitter",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 50,
+        "name": "Dry martini",
+        "price": 38,
+        "description": "gin, vermute branco, bitter",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 51,
+        "name": "Gin tônica",
+        "price": 36,
+        "description": "gin, tônica, limão siciliano, alecrim",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 52,
+        "name": "Aperol",
+        "price": 40,
+        "description": "aperol, espumante, água c/ gás",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 53,
+        "name": "Campari tônica",
+        "price": 30,
+        "description": "campari, água tônica, limão tahiti",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 54,
+        "name": "Old fashioned",
+        "price": 40,
+        "description": "bourbon, angostura, açúcar, bitter",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 55,
+        "name": "Whisky sour",
+        "price": 40,
+        "description": "bourbon, limão, açúcar, bitter, clara de ovo",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 56,
+        "name": "Sazerac",
+        "price": 40,
+        "description": "rye whisky, peuchaud, açúcar, absinto",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 57,
+        "name": "Manhattan",
+        "price": 40,
+        "description": "bourbon, vermute tinto, maraschino",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 58,
+        "name": "Boulevardier",
+        "price": 40,
+        "description": "bourbon, campari, vermute",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 59,
+        "name": "Negroni",
+        "price": 40,
+        "description": "vermute, campari, gin, bitter",
+        "img": "lanche-cupim.jpeg"
+      },
+      {
+        "id": 60,
+        "name": "Negroni sbagliato",
+        "price": 40,
+        "description": "campari, vermute rosso, espumante",
+        "img": "lanche-cupim.jpeg"
+      }
+    ]
+  },
+  
   "cervejas": {
     "name": "Cervejas",
     "items": [
@@ -341,122 +459,6 @@
         "img": "lanche-cupim.jpeg"
       }
     ]
-  },
-  "drinks": {
-    "name": "Drinks",
-    "items": [
-      {
-        "id": 45,
-        "name": "Caipirinha",
-        "price": 38,
-        "description": "cachaça, limão, açúcar",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 46,
-        "name": "Rabo de galo",
-        "price": 38,
-        "description": "cachaça, vermute tinto",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 47,
-        "name": "Maria mole",
-        "price": 38,
-        "description": "conhaque, vermute branco, bitter",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 48,
-        "name": "Amado jorge",
-        "price": 40,
-        "description": "cachaça de canela, maracujá, limão, açúcar mascavo",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 49,
-        "name": "Fitzgerald",
-        "price": 38,
-        "description": "gin, limão, açúcar, bitter",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 50,
-        "name": "Dry martini",
-        "price": 38,
-        "description": "gin, vermute branco, bitter",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 51,
-        "name": "Gin tônica",
-        "price": 36,
-        "description": "gin, tônica, limão siciliano, alecrim",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 52,
-        "name": "Aperol",
-        "price": 40,
-        "description": "aperol, espumante, água c/ gás",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 53,
-        "name": "Campari tônica",
-        "price": 30,
-        "description": "campari, água tônica, limão tahiti",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 54,
-        "name": "Old fashioned",
-        "price": 40,
-        "description": "bourbon, angostura, açúcar, bitter",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 55,
-        "name": "Whisky sour",
-        "price": 40,
-        "description": "bourbon, limão, açúcar, bitter, clara de ovo",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 56,
-        "name": "Sazerac",
-        "price": 40,
-        "description": "rye whisky, peuchaud, açúcar, absinto",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 57,
-        "name": "Manhattan",
-        "price": 40,
-        "description": "bourbon, vermute tinto, maraschino",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 58,
-        "name": "Boulevardier",
-        "price": 40,
-        "description": "bourbon, campari, vermute",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 59,
-        "name": "Negroni",
-        "price": 40,
-        "description": "vermute, campari, gin, bitter",
-        "img": "lanche-cupim.jpeg"
-      },
-      {
-        "id": 60,
-        "name": "Negroni sbagliato",
-        "price": 40,
-        "description": "campari, vermute rosso, espumante",
-        "img": "lanche-cupim.jpeg"
-      }
-    ]
   }
+  
 }

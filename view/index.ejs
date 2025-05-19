@@ -20,20 +20,26 @@
 
     <main class="box-section">
         <header class="box-content-top">
+          <div class="">
           <nav class="box-container nav-list">
-            <button class="nav-btn"><a href="#lanches">Lanches</a></button>
             <button class="nav-btn"><a href="#porcoes">Porções</a></button>
-            <button class="nav-btn"><a href="#drinks">Drinks</a></button>
             <button class="nav-btn"><a href="#acepipes">Acepipes</a></button>
+            <button class="nav-btn"><a href="#lanches">Lanches</a></button>
+            <button class="nav-btn"><a href="#doces">Doces</a></button>
+            <button class="nav-btn"><a href="#drinks">Drinks</a></button>
             <button class="nav-btn"><a href="#cervejas">Cervejas</a></button>
+            <button class="nav-btn"><a href="#vinhos">Vinhos</a></button>
+            <button class="nav-btn"><a href="#sem_alcool">Sem Álcool</a></button>
             <button class="nav-btn"><a href="#almoco">Almoço</a></button>
+
           </nav>
+          </div>
         </header>
         <main class="box-content-bottom">
           <% Object.entries(menuItems).forEach(([index, categoria]) => { %>
           <section id="<%= index %>">
             <div>
-              <p><%= categoria.name %></p>
+              <p class="categoria"><%= categoria.name %></p>
             </div>
             <% categoria.items.forEach(item => { %>
             <div class="menu-items box-container">
