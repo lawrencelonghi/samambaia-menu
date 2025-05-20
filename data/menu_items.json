@@ -81,14 +81,14 @@
         "id": 11,
         "name": "Amendoim",
         "price": 14,
-        "description": "Tradição nos botecos paulistanos",
+        "description": "Japonês, picante, cebola e salsa, normal",
         "img": "acepipe-amendoim.jpg"
       },
       {
         "id": 12,
         "name": "Azeitona chilena",
         "price": 20,
-        "description": "Azeitona na salmora ",
+        "description": "Azeitona na salmoura ",
         "img": "SEMFOTO.JPG"
       },
       {
@@ -116,7 +116,7 @@
         "id": 16,
         "name": "Batatinha em conserva",
         "price": 18,
-        "description": "Batatinhas marinadas com vinhagrete de cebola roxa",
+        "description": "Batatinhas marinadas com vinagrete de cebola roxa",
         "img": "acepipe-batatinha.jpg"
       },
       {
@@ -133,28 +133,28 @@
     "items": [
       {
         "id": 22,
-        "name": "Marinado",
+        "name": "Lanche de marinados",
         "price": 44,
         "description": "ciabatta, berinjela, abobrinha, tomate semi-seco, escarola no limão siciliano",
         "img": "SEMFOTO.JPG"
       },
       {
         "id": 23,
-        "name": "Barriga",
+        "name": "Lanche de barriga",
         "price": 44,
         "description": "focaccia, barriga de porco, escarola no limão siciliano, queijo meia cura",
         "img": "lanche-barriga.jpg"
       },
       {
         "id": 24,
-        "name": "Almôndega",
+        "name": "Lanche de almôndega",
         "price": 44,
         "description": "baguetinha, almôndega suína-bovina, molho de tomate assado",
         "img": "lanche-almondega.jpeg"
       },
       {
         "id": 25,
-        "name": "Cupim",
+        "name": "Lanche de cupim",
         "price": 40,
         "description": "baguetinha, cupim na caracu, rúcula",
         "img": "lanche-cupim.jpeg"
