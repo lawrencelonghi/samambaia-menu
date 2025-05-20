@@ -11,6 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'view'));
 
+
 const menuItems = require('./data/menu_items.json')
 
 app.get('/', (req, res) => {
@@ -19,6 +20,6 @@ app.get('/', (req, res) => {
 
 
 // Start server
-app.listen(PORT, () => {
+app.listen(PORT,() => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
