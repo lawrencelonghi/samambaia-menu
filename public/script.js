@@ -17,3 +17,18 @@ const btns = document.querySelectorAll('.nav-btn')
  })
 
 
+
+
+
+//smooth scroll library
+document.addEventListener('DOMContentLoaded', function() {
+  const scroll = new SmoothScroll('a[href*="#"]', {
+    
+    speed: 350,     
+    offset: 280,      
+    easing: 'easeInOutQuad', 
+    durationMin: 500,
+    updateURL: false,
+    popstate: false,  
+  });
+});
