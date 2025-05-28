@@ -5,11 +5,10 @@ const btns = document.querySelectorAll('.nav-btn')
 
   
  function handleBtn() {
-    this.classList.toggle('active-btn')
-
-    btns.forEach(btn => {
-    if(btn !== this) btn.classList.remove('active-btn');
-    });
+    btns.forEach((btn) =>{
+      this.classList.toggle('active-btn')
+       if(btn !== this) btn.classList.remove('active-btn');
+    })
   }
   
   btns.forEach((btn) =>{
@@ -25,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const scroll = new SmoothScroll('a[href*="#"]', {
     
     speed: 350,     
-    offset: 280,      
+    offset: 212,      
     easing: 'easeInOutQuad', 
     durationMin: 500,
     updateURL: false,

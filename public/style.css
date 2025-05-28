@@ -1,5 +1,5 @@
 html{
-  scroll-padding-top: 280px;
+  scroll-padding-top: 212px;
   scroll-behavior: auto;
 }
 
@@ -7,16 +7,14 @@ ul, ol {
   list-style: none;
 }
 
-a{
+/* a{
   font-family: Arial, Helvetica, sans-serif;   
-     
   text-decoration: none;   
   cursor: pointer; 
   padding-inline: 20px;  
   border-radius: 20px;
- 
-  
-}
+  color: inherit;
+ } */
 
 img {
   margin: 0;
@@ -48,7 +46,6 @@ p{
   margin: 0;
   margin-bottom: 14px;
   padding: 0;
-  /* letter-spacing: 0,5px; */
 }
 
 body{
@@ -58,10 +55,10 @@ body{
   margin: 0;
   padding: 0;
   background-color: rgb(236, 236, 236);
+  color: rgb(70, 70, 70);  
 }
 
 .header{
-
   position: sticky;
   z-index: 100;
   background-color: #105453;
@@ -72,13 +69,13 @@ body{
   margin-bottom: 30px;
   box-shadow: 0  5px 14px 0 rgba(0, 0, 0, 0.2)
 }
+
 .img-logo{
   overflow: hidden;
   max-width: 100%;
   width: 200px;
   height: 130px;
 }
-
 
 .box-section{
   display: flex;
@@ -99,28 +96,23 @@ body{
   background-color: white;
   width: 100%;
   max-width: 500px;
-
-  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); */
   text-align: center;
-  
 }
 
 .box-content-bottom{
-  margin-top: 80px;
+  margin-top: 26px;
   background-color: white;
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 500px;
   height: 100%;
-
   border-radius: 0 0 25px 25px;
-  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); */
   text-align: center;
   padding-top: 40px;
   }
 
-.nav-list{
+/* .nav-list{
   gap: 14px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -134,14 +126,12 @@ body{
   padding-block: 6px;
   padding-inline: 6px;
   margin: 0;  
-  /* font: inherit;  */
+  font: inherit; 
   cursor: pointer;
   border: none;          
-  }
+  }   */
 
-  .nav-btn a{
-    color: rgb(70, 70, 70);   
-  }
+
   
 
   .active-btn,
@@ -158,6 +148,8 @@ body{
   .menu-items{
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 30px;
   
   }
 
@@ -201,17 +193,47 @@ body{
   .categoria{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
-    color: rgb(70, 70, 70);
+    color: black;
     font-size: 18px;
     font-weight: 500; 
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
   }
 
-/* @font-face {
-  font-family: Arial, Helvetica, sans-serif;
-  src: url('/public/font/Quadon-Light.woff2') format('woff2'),
-       url('/public/font/Quadon-Medium.woff2') format('woff2');
-  /* font-weight: normal;
-  font-style: normal;
-  font-display: swap; Optional: controls how fonts load  */
-/* } */
+
+/*horizontal scroll*/
+.nav-list{
+padding-block: 14px;
+width: 100%;
+background-color: white;
+box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+display: flex;
+gap: 15px;
+overflow-x: auto;
+}
+
+::-webkit-scrollbar{
+display: none;
+}
+
+.nav-list .nav-btn{
+color: rgb(70, 70, 70); 
+width: 100%;
+height: 50px;
+/* line-height: 50px; */
+text-align: center;
+background-color: white;
+}
+
+.nav-btn{
+  all: unset;
+}
+
+  .nav-btn a{
+   font-family: Arial, Helvetica, sans-serif;   
+  text-decoration: none;   
+  cursor: pointer; 
+  padding-block: 8px;
+  padding-inline: 20px;  
+  border-radius: 20px;
+  color: inherit;   
+  } 
