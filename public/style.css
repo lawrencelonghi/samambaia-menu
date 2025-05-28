@@ -8,11 +8,12 @@ ul, ol {
 }
 
 a{
-  color: inherit;          
+  font-family: Arial, Helvetica, sans-serif;   
+     
   text-decoration: none;   
   cursor: pointer; 
-  padding-block: 6px;
-  padding-inline: 10px; 
+  padding-inline: 20px;  
+  border-radius: 20px;
  
   
 }
@@ -33,18 +34,25 @@ h2{
   margin: 0;
   margin-bottom: 14px;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(70, 70, 70); 
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
   flex-wrap: wrap;
   font-size: 14px;
-  color: gray;
+  color: rgb(70, 70, 70);
   margin: 0;
   margin-bottom: 14px;
   padding: 0;
+  /* letter-spacing: 0,5px; */
 }
 
 body{
- font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   min-height: 100vh;
   margin: 0;
@@ -113,7 +121,7 @@ body{
   }
 
 .nav-list{
-  gap: 15px;
+  gap: 14px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
@@ -121,21 +129,30 @@ body{
 }
 .nav-btn {
   background: white;
-  color: black;
   border-radius: 20px;
   box-shadow:  0px 0px 5px 5px rgba(0, 0, 0, 0.1); 
   padding-block: 6px;
-  padding-inline: 10px;
-  margin: 0;
-  font: inherit;
+  padding-inline: 6px;
+  margin: 0;  
+  /* font: inherit;  */
   cursor: pointer;
   border: none;          
   }
 
-  .active-btn{
-    color: white;
+  .nav-btn a{
+    color: rgb(70, 70, 70);   
+  }
+  
+
+  .active-btn,
+  .active-btn a{
+    color:  white !important ;
+    border-radius: 20px;
     background: #105453;
-    transition: .6s ;
+    transition: all .6s ease;
+    padding-block: 6px;
+    padding-inline: 6px;
+
   }
 
   .menu-items{
@@ -174,16 +191,27 @@ body{
   }
 
   span{
-    font-weight: bold;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
     margin: 0;
     padding: 0;
   }
   
   .categoria{
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
-    color: black;
+    color: rgb(70, 70, 70);
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500; 
+    letter-spacing: 2px;
   }
 
-
+/* @font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  src: url('/public/font/Quadon-Light.woff2') format('woff2'),
+       url('/public/font/Quadon-Medium.woff2') format('woff2');
+  /* font-weight: normal;
+  font-style: normal;
+  font-display: swap; Optional: controls how fonts load  */
+/* } */

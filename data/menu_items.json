@@ -385,7 +385,7 @@
       }
     ]
   },
-  "sem_alcool": {
+  "bebidas": {
     "name": "Bebidas",
     "items": [
       {
@@ -459,6 +459,16 @@
         "img": "SEMFOTO.JPG"
       }
     ]
+  },
+  "almoco":{
+    "name": "Almoço",
+    "items": [
+      {
+        "id": 45,
+        "name": "Almoço",
+        "description": "Consulte as opções do dia",
+        "img": "SEMFOTO.JPG"
+      }
+    ]
   }
-  
-}
+  }

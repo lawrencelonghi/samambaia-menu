@@ -1,4 +1,4 @@
-// const { response } = require("express");
+
 
 // mantem botao ativo depois de clicado
 const btns = document.querySelectorAll('.nav-btn')
